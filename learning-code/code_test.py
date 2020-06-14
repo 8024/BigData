@@ -32,6 +32,6 @@ def fitting(M = 0):
     plt.plot(x,y,'bo',label = 'noise')
     plt.legend()
     return p_lsq
-
+# result show 
 p_lsq_0 = fitting(M = 3)
 plt.show()
